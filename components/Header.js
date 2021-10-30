@@ -21,7 +21,7 @@ export default function åHeader() {
   const router = useRouter();
 
   return (
-    <div className='shadow-sm border-b bg-white sticky top-0 z-index-50'>
+    <div className='shadow-sm border-b bg-white sticky top-0 z-50'>
       <div className='flex justify-between max-w-6xl mx-5 lg:mx-auto'>
         {/* left */}
         <div

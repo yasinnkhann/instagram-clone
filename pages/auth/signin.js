@@ -7,7 +7,7 @@ export default function signIn({ providers }) {
     <>
       <Header />
 
-      <div className='flex flex-col items-center justify-center min-h-screen py-2 -mt-56 px-14 text-center'>
+      <div className='flex flex-col items-center justify-center min-h-screen py-2 px-14 text-center'>
         <img className='w-80' src='https://links.papareact.com/ocw' alt='' />
         <p className='font-xs italic'>This is a Clone made by Yasin Khan</p>
 
