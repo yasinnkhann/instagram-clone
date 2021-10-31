@@ -22,7 +22,6 @@ export default function Header() {
   return (
     <div className='shadow-sm border-b bg-white sticky top-0 z-50'>
       <div className='flex justify-between max-w-6xl mx-5 lg:mx-auto'>
-        {/* left */}
         <div
           onClick={() => router.push('/')}
           className='relative hidden lg:inline-grid w-24 cursor-pointer'
@@ -45,7 +44,6 @@ export default function Header() {
           />
         </div>
 
-        {/* middle search-input-field */}
         <div className='max-w-xs'>
           <div className='relative mt-1 p-3 rounded-md'>
             <div className='absolute inset-y-0 pl-3 flex items-center pointer-events-none'>
@@ -59,7 +57,6 @@ export default function Header() {
           </div>
         </div>
 
-        {/* right */}
         <div className='flex items-center justify-end space-x-4'>
           <HomeIcon onClick={() => router.push('/')} className='navBtn' />
           <MenuIcon className='h-6 md:hidden cursor-pointer' />
@@ -72,6 +69,7 @@ export default function Header() {
                   3
                 </div>
               </div>
+
               <PlusCircleIcon
                 onClick={() => setOpen(true)}
                 className='navBtn'
