@@ -20,8 +20,8 @@ import {
   query,
   serverTimestamp,
 } from '@firebase/firestore';
-import { db } from '../firebase';
 import Moment from 'react-moment';
+import { db } from '../firebaseConfig.js';
 
 export default function Post({ id, username, userImg, img, caption }) {
   const { data: session } = useSession();

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import faker from 'faker';
-import Story from './Story';
 import { useSession } from 'next-auth/react';
+import faker from 'faker';
+import Story from './Story.js';
 
 export default function Stories() {
   const [suggestions, setSuggestions] = useState([]);

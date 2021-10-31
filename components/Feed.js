@@ -1,8 +1,8 @@
-import MiniProfile from './MiniProfile';
-import Posts from './Posts';
-import Stories from './Stories';
-import Suggestions from './Suggestions';
 import { useSession } from 'next-auth/react';
+import MiniProfile from './MiniProfile.js';
+import Posts from './Posts.js';
+import Stories from './Stories.js';
+import Suggestions from './Suggestions.js';
 
 export default function Feed() {
   const { data: session } = useSession();

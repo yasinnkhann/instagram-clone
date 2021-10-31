@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Header from '../components/Header';
-import Feed from '../components/Feed';
-import Modal from '../components/Modal';
+import Header from '../components/Header.js';
+import Feed from '../components/Feed.js';
+import Modal from '../components/Modal.js';
 
 export default function Home() {
   return (
